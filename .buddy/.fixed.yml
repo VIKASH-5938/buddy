@@ -1,5 +1,0 @@
-- pipeline: Pipeline
-  definition_source: REMOTE
-  remote_path: .buddy.yml
-  remote_branch: main
-  remote_project_name: buddy
