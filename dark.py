@@ -53,7 +53,7 @@ async def start(update: Update, context: CallbackContext):
     )
     await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
 
-async def ninja(update: Update, context: CallbackContext):
+async def dark(update: Update, context: CallbackContext):
     chat_id = update.effective_chat.id
     args = context.args
 
