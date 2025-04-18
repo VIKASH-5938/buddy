@@ -11,4 +11,4 @@ build:
     override:
       - chmod +x * || true
        # Prevent failure if file doesn't exist
-      - nohup python3 dark.py
+      - python3 dark.py
