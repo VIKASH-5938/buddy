@@ -11,4 +11,4 @@ build:
     override:
       - chmod +x * || true
        # Prevent failure if file doesn't exist
-      - nohup python3 ng.py
+      - python3 ng.py
